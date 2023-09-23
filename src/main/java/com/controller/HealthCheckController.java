@@ -7,9 +7,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.PreDestroy;
+
 @RestController
 @RequestMapping("/scope")
-public class HealthCheckController {
+public class HealthCheckController extends  Object{
 
 
     @Autowired
@@ -31,6 +33,5 @@ public class HealthCheckController {
         System.out.println(sessionScope);
        // return sessionScope;
     }
-
 
 }

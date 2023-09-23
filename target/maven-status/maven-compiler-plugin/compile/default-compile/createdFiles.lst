@@ -1,12 +1,15 @@
+com/annotations/value/TestMethod.class
 com/autowiringTypes/byType/AutowireByTypeApp.class
 com/springBasics/SpringBasics.class
 com/scope/applicationVsWebsocket/ApplicationVsWebSocket.class
 com/dependencyinjection/constructorInjection/ConstructorInjectionApp.class
 com/autowiringTypes/byName/AutowireByName.class
+com/model/Standard.class
 com/dependencyinjection/setterInjection/SetterInjectionApp.class
 com/controller/ApplicationVsWebsocketController.class
 com/controller/HealthCheckController.class
 com/model/Employee.class
+com/annotations/value/PageUtilityRequest.class
 com/dependencyinjection/constructorInjection/LinearSearch.class
 com/model/Student.class
 com/model/RequestScopeObject.class
@@ -16,6 +19,7 @@ com/model/ApplicationScopedBean.class
 com/model/WebSocketScopedBean.class
 com/checkingbeanscreatedanddetails/PrintDataOfAllBeansCreated.class
 com/dependencyinjection/setterInjection/LinearSearch.class
+com/annotations/value/GetPageSizeProperty.class
 com/dependencyinjection/setterInjection/IntegerUtility.class
 com/dependencyinjection/fieldInjection/beans/LinearSearch.class
 com/dependencyinjection/fieldInjection/FieldInjectionApp.class
@@ -23,3 +27,4 @@ com/scope/requestVsSession/RequesetVsSessionScope.class
 com/model/SessionScopeObject.class
 com/scope/singletonVsprototype/SingletonVsPrototypeScope.class
 com/autowiringTypes/byTypeWithPrimary/AutowireByTypeWithPrimaryApp.class
+com/annotations/bean/BeanAnnotationWorking.class

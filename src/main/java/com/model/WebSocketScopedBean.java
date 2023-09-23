@@ -1,8 +1,11 @@
 package com.model;
 
 
+import org.springframework.stereotype.Component;
+
 import java.util.concurrent.atomic.AtomicInteger;
 
+@Component
 public class WebSocketScopedBean {
     private static final AtomicInteger instanceCount = new AtomicInteger(0);
     private final int id;
